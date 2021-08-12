@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Add New"
+        android:id="@+id/addnewmenu"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        />
+
+    <item android:title="Sorting"
+        android:id="@+id/sortmenu"
+        android:icon="@drawable/ic_baseline_arrow_circle_up_24"
+        />
+
+    <item android:title="Show All"
+        android:id="@+id/showlistmenu"
+        android:icon="@drawable/ic_baseline_dehaze_24"
+        />
+
+</menu>

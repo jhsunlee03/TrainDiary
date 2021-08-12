@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_screen_slide.xml -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".JournalSlidePAgerActivityFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50px"
+            android:layout_height="100px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:src="@drawable/ic_baseline_chevron_left_24">
+        </ImageView>
+        <androidx.viewpager2.widget.ViewPager2
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="50px"
+            android:layout_height="100px"
+            android:layout_marginRight="10px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_baseline_chevron_right_24">
+        </ImageView>
+    </LinearLayout>
+
+</FrameLayout>
